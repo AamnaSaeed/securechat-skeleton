@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Certificates & keys
+certs/*.pem
+certs/*.key
+certs/*.csr
+certs/*.crt
+certs/*.der
+certs/*.pfx
+
+# Database / SQLite files (if any)
+*.db
+*.sqlite3
+
+# Transcripts / logs
+transcripts/
+*.log
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker / container files (optional)
+docker-compose.override.yml
