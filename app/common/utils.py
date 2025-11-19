@@ -7,3 +7,4 @@ def b64e(b: bytes): raise NotImplementedError
 def b64d(s: str): raise NotImplementedError
 
 def sha256_hex(data: bytes): raise NotImplementedError
+"--"
